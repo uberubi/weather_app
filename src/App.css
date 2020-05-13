@@ -1,6 +1,8 @@
 @import url("'https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Merriweather:wght@300&display=swap'");
 
 .App {
+  display: flex; 
+  justify-content: center;
   margin: 0 auto;
   color: white;
 }
