@@ -5,7 +5,7 @@ const Icon = (props) => {
   const Icon = styled.img`
     width: 40%;
   `;
-debugger
+  debugger;
   let icon = "";
   switch (props.condition) {
     case "Clouds":
@@ -49,13 +49,7 @@ debugger
       break;
   }
 
-  return (
-    <Icon
-      className="icon"
-      src={icon}
-      alt="Weather Icon"
-    />
-  );
+  return <Icon src={icon} alt="Weather Icon" />;
 };
 
 export default Icon;
