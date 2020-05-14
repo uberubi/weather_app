@@ -5,7 +5,6 @@ const Icon = (props) => {
   const Icon = styled.img`
     width: 40%;
   `;
-  debugger;
   let icon = "";
   switch (props.condition) {
     case "Clouds":
